@@ -21,42 +21,42 @@
             <div class="header-block center">
                 <div class="header-logo">
                     <a href="./index.html" class="header-logo__link">
-                        <img src="./images/png/logo.png" alt="" class="header-logo__img">
+                        <img src="./images/png/logo.png" alt="Хирург и Я" class="header-logo__img">
                     </a>
                 </div>
-                <ul class="header-list">
-                    <li class="header-item"><a href="./news.html" class="header-link">Новости</a></li>
-                    <li class="header-item"><a href="./index.html" class="header-link">О нас</a></li>
-                    <li class="header-item"><a href="./members.html" class="header-link">Сотрудники</a></li>
-                    <li class="header-item">
-                        <a href="#" class="header-link header-link--arrow">Услуги</a>
-                        <ul class="dropdown-menu">
-                            <li class="header-item"><a href="#" class="header-link">Наши услуги</a></li>
-                            <li class="header-item"><a href="#" class="header-link">Стоимость услуг</a></li>
-                        </ul>
-                    </li>
-                    <li class="header-item">
-                        <a href="#top" class="header-link license">Лицензия</a>
-                        <div class="license-popup">
-                            <div class="swiper myLicense">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img class="license-image" src="./images/jpg/license0.png" alt="">
-                                        <a class="header-button license-button"
-                                            href="https://disk.yandex.ru/i/GKAm7wIrgElb2A">Файл лицензии с QR кодом</a>
+                <nav class="header-navigation">
+                    <ul class="header-list">
+                        <li class="header-item"><a href="./news.html" class="header-link">Новости</a></li>
+                        <li class="header-item"><a href="./index.html" class="header-link">О нас</a></li>
+                        <li class="header-item"><a href="./members.html" class="header-link">Сотрудники</a></li>
+                        <li class="header-item"><a href="./prices.html" class="header-link">Услуги</a></li>
+                        <li class="header-item">
+                            <a href="#top" class="header-link license">Лицензия</a>
+                            <div class="license-popup">
+                                <div class="swiper myLicense">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img class="license-image" src="./images/jpg/license0.png"
+                                                alt="Фото лицензии клиники Хирург и Я">
+                                            <a class="header-button license-button"
+                                                href="https://disk.yandex.ru/i/GKAm7wIrgElb2A">Файл лицензии с QR
+                                                кодом</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./images/jpg/license1.png"
+                                                alt="Фото заключения СЭС клиники Хирург и Я">
+                                            <a class="header-button license-button"
+                                                href="https://disk.yandex.ru/d/FGqOJNECqJKkQw">Файл заключения СЭС</a>
+                                        </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <img src="./images/jpg/license1.png" alt="">
-                                        <a class="header-button license-button"
-                                            href="https://disk.yandex.ru/d/FGqOJNECqJKkQw">Файл заключения СЭС</a>
-                                    </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
-                                <div class="swiper-pagination"></div>
                             </div>
-                        </div>
-                    </li>
-                    <div class="license-popup__background"></div>
-                </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-burger__menu"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></div>
+                <div class="license-popup__background"></div>
                 <a href="tel:+79221019112" class="header-button">Позвоните нам!</a>
             </div>
         </header>
@@ -82,8 +82,9 @@
                             </div>
                             <div class="news-content">
                                 <h2 class="news-title">Человек года!</h2>
-                                <p class="news-description">Наш главный врач получил заслуженную награду "Человек года" 2022 в Свердловской областной клинической больнице №1.
-                                </p>
+                                <p class="news-description news-description-short">Наш главный врач получил заслуженную
+                                    награду "Человек года" 2022 в Свердловской областной клинической больнице №1.</p>
+                                <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2022</span>
                             </div>
                         </div>
@@ -93,8 +94,9 @@
                             </div>
                             <div class="news-content">
                                 <h2 class="news-title">Новый сотрудник!</h2>
-                                <p class="news-description">В нашей клинике начинает вести прием врач-хирург-колопроктолог.
-                                </p>
+                                <p class="news-description news-description-short">В нашей клинике начинает вести прием
+                                    врач-хирург-колопроктолог главной больницы Свердловской области.
+                                    Все что деликатно, тревожно и важно - теперь можно решить в нашей клинике.</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2022</span>
                             </div>
@@ -105,7 +107,15 @@
                             </div>
                             <div class="news-content">
                                 <h2 class="news-title">Возвращаем к жизни без боли!</h2>
-                                <p class="news-description">Инъекции современных препаратов в суставы всех локализаций.
+                                <p class="news-description news-description-short">Инъекции современных препаратов в
+                                    суставы всех локализаций. Внутрисуставные инъекции являются неотъемлемой частью
+                                    консервативного лечения при воспалительных и дегенеративных заболеваниях
+                                    опорно-двигательной системы. Уколы в пораженный сустав помогают снять воспаление и
+                                    купировать даже очень сильную боль при артрите и артрозах. Метод устранения
+                                    суставных болей будет зависеть от причины, по которой они возникают. Наряду с
+                                    медикаментозным лечением для ускорения выздоровления сустава могут быть назначены и
+                                    внутрисуставные инъекции, которые быстро снимают воспаление и устраняют болевой
+                                    синдром.
                                 </p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2023</span>
@@ -117,7 +127,8 @@
                             </div>
                             <div class="news-content">
                                 <h3 class="news-title">Точно в цель!</h3>
-                                <p class="news-description">Выполнение пункции жидкостных скоплений послеоперационных
+                                <p class="news-description news-description-short">Выполнение пункции жидкостных
+                                    скоплений послеоперационных
                                     ран под УЗИ наведением.</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2023</span>
@@ -129,8 +140,13 @@
                             </div>
                             <div class="news-content">
                                 <h4 class="news-title">Пациент - в приоритете!</h4>
-                                <p class="news-description">Cостоялась пресс-конференция в Уральском региональном центре
-                                    ТАСС.</p>
+                                <p class="news-description news-description-short">Cостоялась пресс-конференция в
+                                    Уральском региональном центре
+                                    ТАСС. Наш врач-хирург Сабадаш Андрей Владимирович, выступал совместно с главным
+                                    хирургом УрФО Михаилом Иосифовичем Прудковым.
+                                    Пресс-конференция посвящена обсуждению концепции непрерывного обучения хирургов в
+                                    Свердловской области. Андрей Владимирович является одним из преподавателей
+                                    непрерывного обучения хирургов на базе СОКБ №1.</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">16.11.2022</span>
                             </div>
@@ -141,8 +157,11 @@
                             </div>
                             <div class="news-content">
                                 <h2 class="news-title">Новый сотрудник!</h2>
-                                <p class="news-description">В нашей клинике начал вести прием Шушанов Антон Павлович.
-                                </p>
+                                <p class="news-description news-description-short">В нашей клинике начал вести прием
+                                    Шушанов Антон Павлович - Заведующий хирургическим отделением реконструктивной
+                                    гастроэнтерологии и абдоминальной хирургии. Врач-хирург высшей категории с опытом
+                                    работы более 20 лет. Врач УЗИ, онколог. Хирург первой величины - профессионал в
+                                    хирургии.</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2022</span>
                             </div>
@@ -153,7 +172,10 @@
                             </div>
                             <div class="news-content">
                                 <h5 class="news-title">Как это оперировать?</h5>
-                                <p class="news-description">3 ноября с грандиозным успехом прошла конференция хирургов Свердловской области.</p>
+                                <p class="news-description news-description-short">3 ноября с грандиозным успехом прошла
+                                    конференция хирургов Свердловской области. Наш врач Сабадаш Андрей Владимирович
+                                    провел мастер класс на примере рецидивной паховой грыже. Труд Андрея Владимирович
+                                    очень ценится в кругу хирургов! Поздравляем и гордимся талантами наших врачей.</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">03.11.2022</span>
                             </div>
@@ -164,7 +186,8 @@
                             </div>
                             <div class="news-content">
                                 <h6 class="news-title">Международный день хирурга.</h6>
-                                <p class="news-description">Клиника послеоперационного периода Хирург и Я поздравляет всех причастных к хирургии с Международным днём Хирурга!</p>
+                                <p class="news-description news-description-short">Клиника послеоперационного периода
+                                    Хирург и Я поздравляет всех причастных к хирургии с Международным днём Хирурга!</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.09.2022</span>
                             </div>
@@ -175,7 +198,11 @@
                             </div>
                             <div class="news-content">
                                 <h2 class="news-title">Достижения сотрудников</h2>
-                                <p class="news-description">Врач хирург Сабадаш Андрей Владимирович на 3-ей Международной специализированной выставке-форуме "Здравоохранение Урала 2022"</p>
+                                <p class="news-description news-description-short">Врач хирург Сабадаш Андрей
+                                    Владимирович на 3-ей Международной специализированной выставке-форуме
+                                    "Здравоохранение Урала 2022" представлял достижения хирургической службы Первой
+                                    областной клинической больнице в Экспо-центре - Министру Здравоохранения Российской
+                                    Федерации Мурашко М.А</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2022</span>
                             </div>
@@ -186,10 +213,36 @@
                             </div>
                             <div class="news-content">
                                 <h2 class="news-title">Риск инфицирования послеоперационной раны 99%</h2>
-                                <p class="news-description">Перевязка ран в домашних условиях - обеспечивает инфицирование послеоперационной раны в 99% случаев.</p>
+                                <p class="news-description news-description-short">Перевязка ран в домашних условиях -
+                                    обеспечивает инфицирование послеоперационной раны в 99% случаев. Почему не 100% -
+                                    потому что 1% - это уже инфицированная послеоперационная рана еще до перевязки.
+                                    На изображении - скобочные швы - в хирургической практике встречаются крайне редко -
+                                    по причине высокой стоимости и особенности снятия.</p>
                                 <a href="#" class="read-more">Читать далее</a>
                                 <span class="news-date">??.??.2022</span>
                             </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-image__block">
+                                <img class="news-image" src="./images/jpg/news7.jpg" alt="Изображение новости">
+                            </div>
+                            <div class="news-content">
+                                <h2 class="news-title">Здравоохранение Урала 2022</h2>
+                                <p class="news-description news-description-short">Торжественное награждение участников
+                                    выставки "Здравоохранение Урала 2022". Награжден наш врач-хирург Сабадаш Андрей
+                                    Владимирович.</p>
+                                <a href="#" class="read-more">Читать далее</a>
+                                <span class="news-date">??.04.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Модальное окно -->
+                    <div id="news-modal">
+                        <div id="modal-content">
+                            <span class="close">&times;</span>
+                            <h2 class="news-title"></h2>
+                            <p class="news-description"></p>
+                            <span class="news-date"></span>
                         </div>
                     </div>
                 </div>
@@ -208,6 +261,12 @@
                             href="https://ibenji.github.io/fakedownboys-portfolio/" class="footer-ref">Group
                             FAKEDOWNBOYS</a>.</p>
                 </div>
+                <div class="footer-text__worktime">
+                    <p class="footer-text">Время работы клиники:</p>
+                    <p class="footer-text">Вторник 14:00 - 21:00</p>
+                    <p class="footer-text">Четверг 14:00 - 21:00</p>
+                    <p class="footer-text">Суббота 14:00 - 21:00</p>
+                </div>
                 <div class="footer-location__content">
                     <address class="footer-text">г. Екатеринбург ул. Академика Сахарова 51</address>
                     <div style="position:relative;overflow:hidden;"><a
@@ -225,6 +284,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./javascript/swiper.js"></script>
+    <script src="https://kit.fontawesome.com/ec9ebfd474.js" crossorigin="anonymous"></script>
     <script src="./javascript/app.js"></script>
 </body>
 

@@ -1,0 +1,75 @@
+.price-list {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #f2f2f2;
+}
+
+.price-list__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.price-list__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.price-list__header {
+    padding: 10px;
+    text-align: left;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.price-list__header:nth-child(2) {
+    text-align: center;
+}
+
+.price-list__row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.price-list__item {
+    padding: 10px;
+}
+
+.price-list__item:nth-child(2) {
+    text-align: center;
+}
+
+.price-list__item:nth-child(2)::after {
+    content: "₽";
+}
+
+.price-list__item--bgc {
+    background-color: #36363670;
+    color: #fff;
+}
+
+.price-list__caption {
+    font-weight: 400;
+    padding: 5px 5px;
+    text-align: center;
+    background-color: #333333;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.price-buttons__block {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.price-button {
+    border: 2px solid #ffa600;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    transition: border .2s ease-in-out;
+}
+
+.price-button:hover {
+    border-color: #69bcff;
+}

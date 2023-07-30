@@ -16,48 +16,47 @@
 </head>
 
 <body>
-    <!-- index.html = О Нас -->
     <div class="root">
         <header class="header">
             <div class="header-block center">
                 <div class="header-logo">
                     <a href="./index.html" class="header-logo__link">
-                        <img src="./images/png/logo.png" alt="" class="header-logo__img">
+                        <img src="./images/png/logo.png" alt="Логотип клиники Хирург и Я" class="header-logo__img">
                     </a>
                 </div>
-                <ul class="header-list">
-                    <li class="header-item"><a href="./news.html" class="header-link">Новости</a></li>
-                    <li class="header-item"><a href="./index.html" class="header-link">О нас</a></li>
-                    <li class="header-item"><a href="./members.html" class="header-link">Сотрудники</a></li>
-                    <li class="header-item">
-                        <a href="#" class="header-link header-link--arrow">Услуги</a>
-                        <ul class="dropdown-menu">
-                            <li class="header-item"><a href="#" class="header-link">Наши услуги</a></li>
-                            <li class="header-item"><a href="#" class="header-link">Стоимость услуг</a></li>
-                        </ul>
-                    </li>
-                    <li class="header-item">
-                        <a href="#top" class="header-link license">Лицензия</a>
-                        <div class="license-popup">
-                            <div class="swiper myLicense">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img class="license-image" src="./images/jpg/license0.png" alt="">
-                                        <a class="header-button license-button"
-                                            href="https://disk.yandex.ru/i/GKAm7wIrgElb2A">Файл лицензии с QR кодом</a>
+                <nav class="header-navigation">
+                    <ul class="header-list">
+                        <li class="header-item"><a href="./news.html" class="header-link">Новости</a></li>
+                        <li class="header-item"><a href="./index.html" class="header-link">О нас</a></li>
+                        <li class="header-item"><a href="./members.html" class="header-link">Сотрудники</a></li>
+                        <li class="header-item"><a href="./prices.html" class="header-link">Услуги</a></li>
+                        <li class="header-item">
+                            <a href="#top" class="header-link license">Лицензия</a>
+                            <div class="license-popup">
+                                <div class="swiper myLicense">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img class="license-image" src="./images/jpg/license0.png"
+                                                alt="Фото лицензии клиники Хирург и Я">
+                                            <a class="header-button license-button"
+                                                href="https://disk.yandex.ru/i/GKAm7wIrgElb2A">Файл лицензии с QR
+                                                кодом</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./images/jpg/license1.png"
+                                                alt="Фото заключения СЭС клиники Хирург и Я">
+                                            <a class="header-button license-button"
+                                                href="https://disk.yandex.ru/d/FGqOJNECqJKkQw">Файл заключения СЭС</a>
+                                        </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <img src="./images/jpg/license1.png" alt="">
-                                        <a class="header-button license-button"
-                                            href="https://disk.yandex.ru/d/FGqOJNECqJKkQw">Файл заключения СЭС</a>
-                                    </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
-                                <div class="swiper-pagination"></div>
                             </div>
-                        </div>
-                    </li>
-                    <div class="license-popup__background"></div>
-                </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-burger__menu"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></div>
+                <div class="license-popup__background"></div>
                 <a href="tel:+79221019112" class="header-button">Позвоните нам!</a>
             </div>
         </header>
@@ -66,23 +65,25 @@
                 <div class="swiper indexPreview">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="./images/jpg/index_preview0.jpg" class="indexPreview-img"
-                                alt="Фото Хирург и Я"></div>
+                                alt="Фото клиники Хирург и Я"></div>
                         <div class="swiper-slide"><img src="./images/jpg/index_preview1.jpg" class="indexPreview-img"
-                                alt="Фото Хирург и Я"></div>
+                                alt="Фото клиники Хирург и Я"></div>
                     </div>
                 </div>
                 <div class="aboutus-block center">
                     <div class="aboutus-block__text">
-                        <h1 class="aboutus-block__title">Чем мы можем Вам помочь</h1>
-                        <p class="aboutus-block__subtitle">Ведение пациентов с осложненным и неосложненный
-                            послеоперационным периодом
-                            Прием пациентов из любых медицинских учреждений Свердловской области и прилежащих областей.
+                        <h1 class="aboutus-block__title">Медицинский центр: услуги по ведению пациентов в
+                            послеоперационном периоде.</h1>
+                        <p class="aboutus-block__subtitle">Мы специализируемся на ведении пациентов с осложненным и
+                            неосложненным послеоперационным периодом. Мы принимаем пациентов из различных медицинских
+                            учреждений в Свердловской области и прилегающих областях.
                         </p>
                     </div>
                     <div class="aboutus-block__cards">
                         <div class="aboutus-block__card">
                             <div class="aboutus-card__image">
-                                <img src="./images/jpg/about_preview0.jpg" class="aboutus-card__img" alt="Фото">
+                                <img src="./images/jpg/about_preview0.jpg" class="aboutus-card__img"
+                                    alt="Фото клиники Хирург и Я">
                             </div>
                             <div class="aboutus-card__content">
                                 <h2 class="aboutus-card__subtitle">Консультативная помощь</h2>
@@ -119,7 +120,8 @@
                         </div>
                         <div class="aboutus-block__card">
                             <div class="aboutus-card__image">
-                                <img src="./images/jpg/about_preview1.jpg" class="aboutus-card__img" alt="Фото">
+                                <img src="./images/jpg/about_preview1.jpg" class="aboutus-card__img"
+                                    alt="Фото клиники Хирург и Я">
                             </div>
                             <div class="aboutus-card__content">
                                 <h3 class="aboutus-card__subtitle">До и послеоперационный период</h3>
@@ -151,7 +153,8 @@
                         </div>
                         <div class="aboutus-block__card">
                             <div class="aboutus-card__image">
-                                <img src="./images/jpg/about_preview2.jpg" class="aboutus-card__img" alt="Фото">
+                                <img src="./images/jpg/about_preview2.jpg" class="aboutus-card__img"
+                                    alt="Фото клиники Хирург и Я">
                             </div>
                             <div class="aboutus-card__content">
                                 <h4 class="aboutus-card__subtitle">Перевязки и хирургические
@@ -182,7 +185,8 @@
                         </div>
                         <div class="aboutus-block__card">
                             <div class="aboutus-card__image">
-                                <img src="./images/jpg/about_preview3.jpg" class="aboutus-card__img" alt="Фото">
+                                <img src="./images/jpg/about_preview3.jpg" class="aboutus-card__img"
+                                    alt="Фото клиники Хирург и Я">
                             </div>
                             <div class="aboutus-card__content">
                                 <h5 class="aboutus-card__subtitle">Сестринское дело</h5>
@@ -217,6 +221,12 @@
                             href="https://ibenji.github.io/fakedownboys-portfolio/" class="footer-ref">Group
                             FAKEDOWNBOYS</a>.</p>
                 </div>
+                <div class="footer-text__worktime">
+                    <p class="footer-text">Время работы клиники:</p>
+                    <p class="footer-text">Вторник 14:00 - 21:00</p>
+                    <p class="footer-text">Четверг 14:00 - 21:00</p>
+                    <p class="footer-text">Суббота 14:00 - 21:00</p>
+                </div>
                 <div class="footer-location__content">
                     <address class="footer-text">г. Екатеринбург ул. Академика Сахарова 51</address>
                     <div style="position:relative;overflow:hidden;"><a
@@ -234,6 +244,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./javascript/swiper.js"></script>
+    <script src="https://kit.fontawesome.com/ec9ebfd474.js" crossorigin="anonymous"></script>
     <script src="./javascript/app.js"></script>
 </body>
 

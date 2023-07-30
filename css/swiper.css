@@ -28,6 +28,11 @@
     height: auto;
 }
 
+.myAwards {
+    width: 400px;
+    height: auto;
+}
+
 .membersSwiper {
     width: 900px;
     height: 600px;
@@ -53,4 +58,8 @@
     border-top-right-radius: 10px;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+.membersSwiper-wrapper {
+    box-sizing: border-box !important;
 }

@@ -8,8 +8,11 @@
 @import "./members.css";
 /* Импортируем подвал сайта */
 @import "./footer.css";
+/* Импортируем стили к Стоимостям */
+@import "./prices.css";
 /* Импортирую Лицензии */
 @import "./license.css";
+@import "./globalSettings/burgermenu.css";
 
 html {
     box-sizing: border-box;
@@ -58,6 +61,8 @@ body {
 }
 
 .aboutus-block__title {
+    text-align: center;
+    max-width: 800px;
     font-size: 42px;
     font-weight: 700;
 }
@@ -147,4 +152,131 @@ body {
 .warning::before {
     content: "ВАЖНО!";
     font-weight: 700;
+}
+
+@media (max-width: 1435px) {
+    .news-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .aboutus-block__cards,
+    .header-block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 872px) {
+    .header-navigation {
+        display: none;
+    }
+
+    .header-list {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .header-burger__menu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-block {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-text__content {
+        text-align: center;
+    }
+
+    .members-block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .myLicense {
+        width: 400px;
+    }
+}
+
+@media (max-width: 494px) {
+    .aboutus-block__title {
+        font-size: 36px;
+    }
+
+    .aboutus-block__subtitle {
+        font-size: 18px;
+    }
+
+    .aboutus-block__card {
+        flex-direction: column;
+        width: -webkit-fill-available;
+    }
+
+    .aboutus-card__image,
+    .news-image__block {
+        width: -webkit-fill-available;
+    }
+
+    .members,
+    .sign-text__block,
+    .news-block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .members-profile__buttons-container {
+        gap: 10px;
+    }
+
+    .members-profile__title {
+        font-size: 16px;
+    }
+
+    .members-profile__subtitle {
+        font-size: 15px;
+    }
+
+    .members-profile__button,
+    .members-profile__desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .aboutus-block__title {
+        font-size: 20px;
+    }
+
+    .aboutus-block__subtitle {
+        font-size: 16px;
+    }
+
+    .footer-block {
+        justify-content: center;
+    }
+
+    .footer-text__content {
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-location__content>div>iframe {
+        width: 260px !important;
+    }
+
+    .myLicense,
+    .myAwards {
+        width: 285px;
+    }
 }

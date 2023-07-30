@@ -9,7 +9,8 @@
     z-index: 999;
 }
 
-.license-popup {
+.license-popup,
+.awards-popup {
     display: none;
     position: fixed;
     top: 50%;
@@ -22,6 +23,10 @@
 }
 
 .license-popup.show {
+    display: block;
+}
+
+.awards-popup.show {
     display: block;
 }
 
