@@ -1,0 +1,87 @@
+.header-block {
+    background-color: #4d4d4d;
+    padding: 15px 15px;
+}
+
+.header-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-logo__img {
+    width: 64px;
+}
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: none;
+    transition: text-shadow .2s ease-in-out;
+}
+
+.header-link:hover {
+    text-shadow: 0px 0px 10px rgb(170, 170, 170);
+}
+
+.header-link--arrow::after {
+    content: "\0020\25BE";
+}
+
+.header-item {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #3d3d3d;
+    padding: 10px;
+    width: max-content;
+}
+
+.dropdown-menu > .header-item {
+    margin-bottom: 15px;
+}
+
+.dropdown-menu > .header-item:last-child {
+    margin-bottom: 0;
+}
+
+.header-item:hover .dropdown-menu {
+    display: block;
+    z-index: 9999;
+}
+
+.header-button {
+    color: #fff;
+    border: 2px solid #ffa600;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: border .2s ease-in-out;
+}
+
+.header-button:hover {
+    border-color: #69bcff;
+}

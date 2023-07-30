@@ -1,0 +1,56 @@
+.swiper {
+    width: 100%;
+    height: 800px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-progressbar-fill {
+    background-color: #ffa600 !important;
+}
+
+.myLicense {
+    width: 600px;
+    height: auto;
+}
+
+.membersSwiper {
+    width: 900px;
+    height: 600px;
+}
+
+.swiper-slide__profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide__profile img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
