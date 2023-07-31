@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -43,16 +43,17 @@
                                                 кодом</a>
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="./images/jpg/license1.png"
+                                            <img src="./images/jpg/license1.jpg"
                                                 alt="Фото заключения СЭС клиники Хирург и Я">
                                             <a class="header-button license-button"
-                                                href="https://disk.yandex.ru/d/FGqOJNECqJKkQw">Файл заключения СЭС</a>
+                                                href="https://disk.yandex.ru/d/FGqOJNECqJKkQw">Файл заключения СЭЗ</a>
                                         </div>
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
                             </div>
                         </li>
+                        <li class="header-item"><a href="./contacts.html" class="header-link">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="header-burger__menu"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></div>
@@ -60,14 +61,6 @@
                 <a href="tel:+79221019112" class="header-button">Позвоните нам!</a>
             </div>
         </header>
-        <div class="sign-background">
-            <div class="sign-text__block">
-                <h1 class="aboutus-block__title">Комфортные условия приема и сопровождения в нашей клинике.</h1>
-                <p class="aboutus-block__subtitle">Мы предлагаем комфортные условия для приема, ожидания и сопровождения
-                    вас и ваших близких в течение медицинских процедур, таких как перевязка, манипуляции и уколы.</p>
-                <a href="tel:+79221019112" class="header-button">Записаться по телефону!</a>
-            </div>
-        </div>
         <main class="main">
             <section class="members">
                 <div class="members-text__intro center">
@@ -83,7 +76,7 @@
                 </div>
                 <div class="members-text__block center">
                     <div class="members-text__content">
-                        <h3 class="aboutus-block__title">Прием врачей-хирургов и медицинских сестер в Главной больнице
+                        <h3 class="aboutus-block__title">Прием врачей-хирургов и медицинских сестер из Главной больнице
                             Свердловской области</h3>
                         <p class="aboutus-block__subtitle">Первичный прием пациентов, операции и манипуляции проводятся
                             в рабочие дни и часы. Также есть возможность получить консультацию у врача-хирурга Сабадаша
@@ -97,7 +90,8 @@
                 </div>
             </section>
             <section class="members-profiles">
-                <div class="awards-popup">
+                <!-- Награды Сабадаш -->
+                <div class="awards-popup" id="awards-popup1">
                     <div class="swiper myAwards">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -109,6 +103,118 @@
                                     alt="Документ награждения Сабадаш А.В.">
                             </div>
                         </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- Обучение Сабадаш -->
+                <div class="awards-popup exp-popup" id="awards-popup2">
+                    <div class="swiper myAwards myExp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-exp__slide">
+                                <img class="awards-image" src="./images/jpg/exp_sabadash.jpg"
+                                    alt="История обучения Сабадаш А.В.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- Награды Шушанов -->
+                <!-- <div class="awards-popup" id="awards-popup3">
+                    <div class="swiper myAwards">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="awards-image" src="./images/jpg/news7.jpg"
+                                    alt="Документ награждения Шушанов А.П.">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="awards-image" src="./images/jpg/news8.jpg"
+                                    alt="Документ награждения Шушанов А.П.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div> -->
+                <!-- Обучение Шушанов -->
+                <div class="awards-popup exp-popup" id="awards-popup4">
+                    <div class="swiper myAwards myExp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-exp__slide">
+                                <img class="awards-image" src="./images/jpg/exp_shushanov.jpg"
+                                    alt="История обучения Сабадаш А.В.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- Награды Магомед -->
+                <!-- <div class="awards-popup" id="awards-popup5">
+                    <div class="swiper myAwards">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="awards-image" src="./images/jpg/news7.jpg"
+                                    alt="Документ награждения Камилов М.Ю.">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="awards-image" src="./images/jpg/news8.jpg"
+                                    alt="Документ награждения Камилов М.Ю.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div> -->
+                <!-- Обучение Магомед -->
+                <div class="awards-popup exp-popup" id="awards-popup6">
+                    <div class="swiper myAwards myExp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-exp__slide">
+                                <img class="awards-image" src="./images/jpg/exp_magomed.jpg"
+                                    alt="История обучения Камилов М.Ю.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- Награды Воробьев -->
+                <!-- <div class="awards-popup" id="awards-popup7">
+                    <div class="swiper myAwards">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="awards-image" src="./images/jpg/news7.jpg"
+                                    alt="Документ награждения Воробьев А.И.">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="awards-image" src="./images/jpg/news8.jpg"
+                                    alt="Документ награждения Воробьев А.И.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div> -->
+                <!-- Обучение Воробев -->
+                <div class="awards-popup exp-popup" id="awards-popup8">
+                    <div class="swiper myAwards myExp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-exp__slide">
+                                <img class="awards-image" src="./images/jpg/exp_vorobiev.jpg"
+                                    alt="История обучения Воробьев А.И.">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
@@ -128,7 +234,8 @@
                                 <div class="members-profile__buttons-container">
                                     <a href="https://prodoctorov.ru/ekaterinburg/vrach/495857-sabadash/"
                                         class="members-profile__button">Отзывы</a>
-                                    <a href="#" class="members-profile__button awards">Награды</a>
+                                    <a href="#" class="members-profile__button awards" id="awards1">Сертификаты</a>
+                                    <a href="#" class="members-profile__button awards exp" id="awards2">Обучение</a>
                                 </div>
                             </div>
                             <div class="swiper-slide swiper-slide__profile">
@@ -143,7 +250,8 @@
                                 <div class="members-profile__buttons-container">
                                     <a href="https://prodoctorov.ru/ekaterinburg/vrach/229097-shushanov/"
                                         class="members-profile__button">Отзывы</a>
-                                    <!-- <a href="#" class="members-profile__button">Награды</a> -->
+                                        <a href="#top" class="members-profile__button awards" id="awards3">Сертификаты</a>
+                                        <a href="#" class="members-profile__button awards exp" id="awards4">Обучение</a>
                                 </div>
                             </div>
                             <div class="swiper-slide swiper-slide__profile">
@@ -153,6 +261,12 @@
                                     <h4 class="members-profile__title">Камилов Магомед Юсупович</h4>
                                     <p class="members-profile__subtitle"></p>
                                     <p class="members-profile__desc">Врач-хирург-колопроктолог</p>
+                                </div>
+                                <div class="members-profile__buttons-container">
+                                    <a href="#"
+                                        class="members-profile__button">Отзывы</a>
+                                        <a href="#top" class="members-profile__button awards" id="awards5">Сертификаты</a>
+                                        <a href="#" class="members-profile__button awards exp" id="awards6">Обучение</a>
                                 </div>
                             </div>
                             <div class="swiper-slide swiper-slide__profile">
@@ -164,6 +278,12 @@
                                     <p class="members-profile__desc">Врач-хирург-колопроктолог. Врач ультразвуковой
                                         диагностики
                                     </p>
+                                </div>
+                                <div class="members-profile__buttons-container">
+                                    <a href="#"
+                                        class="members-profile__button">Отзывы</a>
+                                        <a href="#top" class="members-profile__button awards" id="awards7">Сертификаты</a>
+                                        <a href="#" class="members-profile__button awards exp" id="awards8">Обучение</a>
                                 </div>
                             </div>
                             <div class="swiper-slide swiper-slide__profile">
@@ -185,6 +305,8 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-button-next swiper-button-next-members"></div>
+                        <div class="swiper-button-prev swiper-button-prev-members"></div>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
@@ -209,6 +331,7 @@
                 <p class="footer-text">Вторник 14:00 - 21:00</p>
                 <p class="footer-text">Четверг 14:00 - 21:00</p>
                 <p class="footer-text">Суббота 14:00 - 21:00</p>
+                <a href="tel:+79221019112" class="header-button">Позвоните нам!</a>
             </div>
             <div class="footer-location__content">
                 <address class="footer-text">г. Екатеринбург ул. Академика Сахарова 51</address>
@@ -224,7 +347,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./javascript/swiper.js"></script>
     <script src="https://kit.fontawesome.com/ec9ebfd474.js" crossorigin="anonymous"></script>
     <script src="./javascript/app.js"></script>

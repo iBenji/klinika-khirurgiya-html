@@ -1,0 +1,65 @@
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contacts-block > .aboutus-block__title {
+    margin-bottom: 20px;
+}
+
+.contacts-block__address,
+.contacts-block__working-hours,
+.contacts-block__phone-number {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contacts-block__address span:first-child,
+.contacts-block__working-hours span:first-child,
+.contacts-block__phone-number span:first-child {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contacts-block__working-hours {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.contacts-block__tel {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts-block__maps {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts-block__map-yandex {
+    width: 100vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-block__map-yandex iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}

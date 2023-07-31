@@ -46,6 +46,10 @@ if (membersSwiper) {
           el: ".swiper-pagination",
           clickable: true,
         },
+        navigation: {
+          nextEl: ".swiper-button-next-members",
+          prevEl: ".swiper-button-prev-members",
+        },
     });
 
     function getSlidesPerView() {
