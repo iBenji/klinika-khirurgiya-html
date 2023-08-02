@@ -7,6 +7,7 @@
 @import "./footer.css";
 @import "./swiper.css";
 @import "./globalSettings/burgermenu.css";
+
 html {
     box-sizing: border-box;
 }
@@ -191,27 +192,27 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1027px) {
 
     .aboutus-block__cards,
     .header-block {
         padding-left: 10px;
         padding-right: 10px;
     }
-}
 
-@media (max-width: 872px) {
     .header-navigation {
         display: none;
     }
 
+    .header-burger__menu {
+        display: block;
+    }
+}
+
+@media (max-width: 872px) {
     .header-list {
         flex-direction: column;
         padding: 10px 10px;
-    }
-
-    .header-burger__menu {
-        display: block;
     }
 }
 
@@ -235,6 +236,12 @@ body {
     }
 }
 
+@media (min-width: 494px) and (max-width: 687px) {
+    .swiper-slide__profile img {
+        width: 40%;
+    }
+}
+
 @media (max-width: 494px) {
     .aboutus-block__title {
         font-size: 36px;
@@ -255,6 +262,8 @@ body {
     }
 
     .members,
+    .members-text__content,
+    .members-text__intro,
     .sign-text__block,
     .news-block {
         padding-left: 10px;
@@ -282,9 +291,9 @@ body {
         height: 550px;
     }
 
-    .membersSwiper {
+    /* .membersSwiper {
         height: 100vh;
-    }
+    } */
 
     .myExp {
         width: 395px;

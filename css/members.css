@@ -32,9 +32,9 @@
     margin-bottom: 80px;
 }
 
-.members-profile__img {
+/* .members-profile__img {
     position: relative;
-}
+} */
 
 .members-profile__text {
     display: flex;
@@ -73,10 +73,11 @@
 }
 
 .members-profile__buttons-container {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     right: 0;
-    bottom: 20px;
+    bottom: 20px; */
+    margin-top: auto;
 }
 
 .members-profile__button {

@@ -1,14 +1,11 @@
 .header-block {
-    background-color: #4d4d4d;
-    padding: 15px 15px;
-}
-
-.header-block {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #4d4d4d;
+    padding: 15px 15px;
     gap: 40px;
 }
 
@@ -60,11 +57,11 @@
     width: max-content;
 }
 
-.dropdown-menu > .header-item {
+.dropdown-menu>.header-item {
     margin-bottom: 15px;
 }
 
-.dropdown-menu > .header-item:last-child {
+.dropdown-menu>.header-item:last-child {
     margin-bottom: 0;
 }
 

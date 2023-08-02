@@ -23,6 +23,10 @@
     background-color: #ffa600 !important;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,1px) !important;
+}
+
 .myLicense {
     width: 600px;
     height: auto;
@@ -35,14 +39,14 @@
 
 .membersSwiper {
     width: 900px;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .swiper-slide__profile {
     position: relative;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 10px;
