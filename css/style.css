@@ -189,7 +189,7 @@ body {
     position: fixed;
     text-transform: uppercase;
     right: 20px;
-    bottom: 20px;
+    bottom: 5px;
     padding: 10px 20px;
     font-size: 14px;
     background-color: #4242425e;
@@ -199,6 +199,7 @@ body {
     border-radius: 3px;
     cursor: pointer;
     transition: border .2s ease-in-out;
+    z-index: 99;
 }
 
 #scrollToTopBtn:focus {
@@ -228,6 +229,9 @@ body {
     .header-burger__menu {
         display: block;
     }
+    .footer-location__content {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 872px) {
@@ -254,6 +258,11 @@ body {
 
     .myLicense {
         width: 400px;
+    }
+    #scrollToTopBtn {
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }
 
