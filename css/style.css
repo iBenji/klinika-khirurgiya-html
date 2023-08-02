@@ -214,7 +214,7 @@ body {
     }
 }
 
-@media (max-width: 1027px) {
+@media (max-width: 1024px) {
 
     .aboutus-block__cards,
     .header-block {
@@ -229,12 +229,10 @@ body {
     .header-burger__menu {
         display: block;
     }
+
     .footer-location__content {
         padding-bottom: 30px;
     }
-}
-
-@media (max-width: 872px) {
     .header-list {
         flex-direction: column;
         padding: 10px 10px;
@@ -259,6 +257,7 @@ body {
     .myLicense {
         width: 400px;
     }
+
     #scrollToTopBtn {
         left: 0;
         right: 0;
@@ -321,10 +320,6 @@ body {
         height: 550px;
     }
 
-    /* .membersSwiper {
-        height: 100vh;
-    } */
-
     .myExp {
         width: 395px;
     }
@@ -333,6 +328,7 @@ body {
         width: 350px;
         height: 250px;
     }
+
 }
 
 @media (max-width: 375px) {
@@ -356,8 +352,8 @@ body {
         font-size: 14px;
     }
 
-    .footer-location__content>div>iframe {
-        width: 260px !important;
+    .footer-yandex__map iframe {
+        width: 295px !important;
     }
 
     .myLicense,
