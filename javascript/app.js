@@ -124,3 +124,21 @@ document.addEventListener("click", function(event) {
     headerList.classList.remove("active");
   }
 });
+
+// функция для прокрутки страницы вверх
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" // чтобы прокрутка была плавной
+  });
+}
+
+// показывать/скрывать кнопку при прокрутке страницы
+window.addEventListener("scroll", function() {
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  if (window.scrollY > 0) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+});
